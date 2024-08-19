@@ -10,3 +10,7 @@
 
 export { format } from './utils/utils';
 export type * from './components.d.ts';
+import { defineCustomElements } from 'componente-01-msmolina5/dist/esm/loader';
+
+// Define los componentes personalizados globalmente
+defineCustomElements(window);
